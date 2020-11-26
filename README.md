@@ -18,19 +18,20 @@ Sobre os requisitos do front, o que é esperado:
 
 - Validação de campos obrigatórios, via Javascript. (todos os campos são obrigatórios)
 - Validação de padrão de senha, utilizando os seguintes critérios:
-    1. Mínimo de 8 caractéres
-    2. Máximo de 14 caractéres
+    1. Mínimo de 8 caracteres
+    2. Máximo de 14 caracteres
     3. Obrigatório pelo menos um caracter maíusculo, um minúsculo, um número e um caracter especial
     4. Não é permitido repetir a mesma sequencia de caracteres
 - Mensagem de sucesso, caso todos os campos sejam preenchido e a validação da senha seja um sucesso.
 
 Alguns exemplos de senhas corretas e incorretas:
 
-- 123 (incorreta - todos os critérios)
+- 123 (incorreta - itens 1, 2 e 3)
 - asasb (incorreta - todos os critérios)
 - 12345678 (3 item incorreto)
 - A1krs!lmn (correto)
 - lmn3!lmKX4 (4 item incorreto)
+- 543543TM!#kmn (4 item incorreto)
 
 **NÃO É PERMITIDO UTILIZAR TEMPLATES PRONTOS PARA O HTML. VOCÊ PODERÁ SE "INSPIRAR", MAS SEJA CRIATIVO!**
 
